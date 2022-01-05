@@ -16,7 +16,9 @@
 #top_falower {
   display: flex;
 }
-
+#cmt {
+  padding: 0.5px 1px 0 0;
+}
 nav {
   position: fixed;
   width: 100%;
@@ -72,6 +74,12 @@ ul.icons > li {
 .box2 {
   width: 30px;
   height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.box3 {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -285,28 +293,34 @@ body :hover {
 }
 #pop02 > div > div:nth-of-type(3) > div > div {
   display: flex;
+  padding-bottom: 45px;
 }
 
+#pop02 > div > div:nth-of-type(3) > div {
+  padding: 10px 0 13px 14px;
+  font-weight: bold;
+  font-size: 13px;
+}
 #pop02
   > div
   > div:nth-of-type(3)
-  > div
+  > div:nth-of-type(2)
   > div
   > div:nth-of-type(2)
   > div:nth-of-type(1)
-  > a {
+  > a:nth-of-type(1) {
   color: black;
-  padding-left: 6px;
+  padding-left: 7px;
 }
 #pop02
   > div
   > div:nth-of-type(3)
-  > div
+  > div:nth-of-type(2)
   > div
   > div:nth-of-type(2)
   > div:nth-of-type(2)
   > a {
-  padding-left: 2px;
+  padding-left: 3px;
   font-weight: lighter;
 }
 
