@@ -337,30 +337,30 @@ body :hover {
   outline: none;
 }
 
-#nic {
+#nickname {
   display: flex;
   flex-direction: column;
   padding: 0 267px 0 12px;
 }
-#nic > div > a {
+#nickname > div > a {
   color: black;
 }
-#nic > div:nth-of-type(2) {
+#nickname > div:nth-of-type(2) {
   font-weight: lighter;
 }
-#pr-name {
+#profile-box {
   padding: 23px 0 30px 15px;
 }
-#pr-name > div:nth-of-type(2) {
+#profile-box > div:nth-of-type(2) {
   text-align: left;
   padding-left: 12px;
   font-weight: lighter;
 }
-#pr-name > div:nth-of-type(2) > a:nth-of-type(1) {
+#profile-box > div:nth-of-type(2) > a:nth-of-type(1) {
   color: black;
   font-weight: bold;
 }
-#pr-name > div:nth-of-type(2) > a:nth-of-type(2) {
+#profile-box > div:nth-of-type(2) > a:nth-of-type(2) {
   color: grey;
 }
 
@@ -419,6 +419,7 @@ body :hover {
   > a:nth-of-type(2) {
   font-weight: bold;
 }
+/* pack은 아이템 전체에 효과주는 용도 */
 #pack > div {
   padding: 12px 0 5px 13px;
 }
@@ -513,6 +514,7 @@ body :hover {
   display: flex;
 }
 
+/* follow: 아이디, 댓글, 팔로우표시에 효과 */
 .follow {
   text-align: left;
   font-size: 12px;
