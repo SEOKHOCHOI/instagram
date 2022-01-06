@@ -16,7 +16,7 @@
 #top_falower {
   display: flex;
 }
-#cmt {
+#mode_comment {
   padding: 0.5px 1px 0 0;
 }
 nav {
@@ -53,38 +53,38 @@ ul.icons > li {
   margin: 0 5px;
 }
 
-.dp {
+.display {
   display: flex;
   flex-direction: row;
 }
-.dp2 {
+.display02 {
   padding: 13px 0 12px 11px;
 }
-.dp3 {
+.display03 {
   align-items: center;
   padding-left: 15px;
 }
 
-.box {
+.profile-box {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   overflow: hidden;
 }
-.box2 {
+.profile-box02 {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   overflow: hidden;
 }
-.box3 {
+.profile-box03 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   overflow: hidden;
 }
 
-.box.fav {
+.profile-box.fav {
   margin: 20px 0 0 20px;
 }
 
@@ -115,40 +115,51 @@ ul.icons > li {
   overflow: hidden;
 }
 
-.btn {
+.open-it {
   margin: 1px 15px;
   font-size: 15px;
   color: gray;
   display: flex;
 }
 
-.feedback {
+/* feedback: 아이디, 설명등에 효과 */
+.feedback-gray {
   font-weight: bold;
   color: gray;
   text-decoration: none;
 }
 
-.feedback02 {
+.feedback-black {
   font-weight: bold;
   text-decoration: none;
   font-size: 12px;
   color: black;
 }
 
-.feedback03 {
+.feedback-nocol {
   font-weight: bold;
   text-decoration: none;
   font-size: 12px;
 }
-.feedback04 {
+.feedback-atag01 {
   color: black;
   text-decoration: none;
 }
-.feedback04-02 {
+.feedback-atag02-lighter {
   color: black;
   text-decoration: none;
   font-weight: lighter;
   font-size: 12px;
+}
+.feedback-size5 {
+  font-size: 5px;
+  padding: 4px 0 8px 20px;
+}
+.feedback-size10 {
+  padding-left: 8px;
+  font-size: 10px;
+  text-align: left;
+  font-weight: bold;
 }
 
 body :hover {
@@ -159,26 +170,6 @@ body :hover {
   font-size: 13px;
   padding-right: 7px;
 }
-
-.feedback05 {
-  font-size: 5px;
-  padding: 4px 0 8px 20px;
-}
-.feedback06 {
-  padding-left: 8px;
-  font-size: 10px;
-  text-align: left;
-  font-weight: bold;
-}
-/* .feedback06 {
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 12px;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-} */
 
 .popup {
   position: fixed;
@@ -302,6 +293,7 @@ body :hover {
   font-weight: bold;
   font-size: 13px;
 }
+
 #pop02
   > div
   > div:nth-of-type(3)
@@ -313,6 +305,7 @@ body :hover {
   color: black;
   padding-left: 7px;
 }
+
 #pop02
   > div
   > div:nth-of-type(3)
@@ -386,14 +379,14 @@ body :hover {
   padding-left: 8px;
 }
 
-#comment > div:nth-of-type(1) .feedback02 {
+#comment > div:nth-of-type(1) .feedback-black {
   font-weight: lighter;
 }
-#comment > div:nth-of-type(1) .feedback02 > a:nth-of-type(1) {
+#comment > div:nth-of-type(1) .feedback-black > a:nth-of-type(1) {
   font-weight: bold;
   color: black;
 }
-#comment > div:nth-of-type(1) .feedback02 > div > a:nth-of-type(2) {
+#comment > div:nth-of-type(1) .feedback-black > div > a:nth-of-type(2) {
   font-weight: bold;
 }
 #comment > div:nth-of-type(2) > div > div:nth-of-type(2) {
