@@ -13,21 +13,21 @@ window.onload=()=>{
 }
 
 function popup(){
-let pop = document.getElementById('pop1');
+let pop = document.querySelector('.pop1');
 pop.style.display='flex';
 }
 
 function closePopup(){
-document.getElementById('pop1').style.display='none';
+document.querySelector('.pop1').style.display='none';
 }
 
 function popup02(){
-  let pop = document.getElementById('pop02');
+  let pop = document.querySelector('.pop02');
   pop.style.display='flex';
   }
   
   function closePopup02(){
-  document.getElementById('pop02').style.display='none';
+  document.querySelector('.pop02').style.display='none';
   }
   
 
