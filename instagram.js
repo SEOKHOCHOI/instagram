@@ -25,16 +25,8 @@ function popup02(){
   let pop = document.querySelector('.pop02');
   pop.style.display='flex';
 }
-  
-function closePopup02(){
-  document.querySelector('.pop02').style.display='none';
-}
-function popup03(){
-  let pop = document.querySelector('.pop03');
-  pop.style.display='flex';
-}
 function closePopup03(){
-  document.querySelector('.pop03').style.display='none';
+  document.querySelector('.pop02').style.display='none';
   }
 
 
