@@ -168,8 +168,10 @@ body :hover {
 }
 .heart {
   cursor: pointer;
+  padding-right: 3px;
+}
+.material-icons-outlined {
   font-size: 13px;
-  padding-right: 7px;
 }
 
 .popup {

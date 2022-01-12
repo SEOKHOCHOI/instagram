@@ -47,10 +47,10 @@ function love(heart){
   let state = JSON.parse(heart.dataset.state);
   heart.dataset.state=!state;
   if(state===false){
-    heart.innerText='♥';
+    heart.innerText='favorite';
     heart.style.color='red';
   }else{
-    heart.innerText='♡';
+    heart.innerText='favorite_border';
     heart.style.color='';
   }
 }
