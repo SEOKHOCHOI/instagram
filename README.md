@@ -22,3 +22,6 @@
 ### Reference
 <p>이 프로젝트는 Instagram을 참조하여 학습목적으로 만들었습니다.</p>
 <p>JavaScript를 사용한 동적 기능 구현보다는 HTML, CSS를 사용하여 실제 Instagram과 비슷하게 구현하는걸 목적으로 하였습니다.</p>
+
+### Project Youtube Link
+<p>https://www.youtube.com/watch?v=3jRqAANQehc</p>
